@@ -125,6 +125,7 @@ INSTALLED_APPS = (
     'rest_framework',
     'provider',
     'provider.oauth2',
+    'apps.users',
     'south',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
