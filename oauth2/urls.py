@@ -5,6 +5,7 @@ from django.conf.urls import patterns, include, url
 # admin.autodiscover()
 
 urlpatterns = patterns('',
+    url(r'^oauth2/', include('provider.oauth2.urls', namespace='oauth2')),
     # Examples:
     # url(r'^$', 'oauth2.views.home', name='home'),
     # url(r'^oauth2/', include('oauth2.foo.urls')),

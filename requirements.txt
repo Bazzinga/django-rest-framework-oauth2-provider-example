@@ -3,5 +3,7 @@ South==0.8.2
 argparse==1.2.1
 distribute==0.6.24
 django-cors-headers==0.12
+django-oauth2-provider==0.2.6
 djangorestframework==2.3.8
+shortuuid==0.4
 wsgiref==0.1.2
