@@ -11,7 +11,7 @@ router.register(r'users', views.UserViewSet)
 urlpatterns = patterns('',
                        url(r'^oauth2/', include('provider.oauth2.urls', namespace='oauth2')),
                        url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
-                       url(r'^api/', include(router.urls)),
+                       url(r'^', include(router.urls)),
                        # Examples:
                        # url(r'^$', 'oauth2.views.home', name='home'),
                        # url(r'^oauth2/', include('oauth2.foo.urls')),
