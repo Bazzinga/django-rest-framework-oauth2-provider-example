@@ -10,7 +10,7 @@ cd django-rest-framework-oauth2-provider-example
 virtualenv env
 ```
 
-Setup dependencies and database 
+Setup dependencies and database:
 ```console
 make install
 make initdb
