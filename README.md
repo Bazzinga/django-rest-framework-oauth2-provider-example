@@ -1,6 +1,6 @@
 django-rest-framework-oauth2-provider
 ===================
-Working example of django-rest-framework using OAuth2Authentication (django-oauth2-provider) and SessionAuthentication for browseable API.
+Working example of [django-rest-framework](https://github.com/tomchristie/django-rest-framework/tree/master) using OAuth2Authentication ([django-oauth2-provider](https://github.com/caffeinehit/django-oauth2-provider)) and SessionAuthentication for browseable API.
 
 ## Install 
 Clone this repo, set up a virtualenv:
