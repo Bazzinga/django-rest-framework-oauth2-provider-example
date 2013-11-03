@@ -27,7 +27,7 @@ Launch [http://localhost:7000](http://localhost:7000) in your browser.
 Default **username** is `ar` and **pasword** `ar` with a preconfigured client already set up. 
 
 
-***...in case** you'd like to start fresh:
+**...in case** you'd like to start fresh:
 ```console
 rm db.sqlite3
 make initdb
