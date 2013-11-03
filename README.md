@@ -4,6 +4,10 @@ Working example of [django-rest-framework](https://github.com/tomchristie/django
 
 Client example for Ember.js available at [ember-app-kit-simple-auth](https://github.com/erkarl/ember-app-kit-simple-auth).
 
+## Requirements 
+* You should have [virtualenv](http://www.virtualenv.org/en/latest/#installation) installed. 
+* Make sure your [SSH keys](https://help.github.com/articles/generating-ssh-keys) are set up properly for GitHub.
+
 ## Install 
 Clone this repo, set up and activate a virtualenv:
 ```console
